@@ -7,12 +7,12 @@
  Exista doua tipuri de participanti: cei care trimit mesajele, numiti "publishers" si cei care le receptioneaza, numiti "subscribers".
  
 ## Exemplu:
-   Un set de canale posibile la un moment dat, ar putea fi:
+   ### Un set de canale posibile la un moment dat, ar putea fi:
      A. /comm/messaging/channel_a
      B. /comm/messaging/channel_b
      C. /comm/messaging
      D. /comm
-   Pentru acest exemplu, avem urmatoarele afirmat, ii corecte:
+   ### Pentru acest exemplu, avem urmatoarele afirmat, ii corecte:
      1. Un mesaj trimis catre canalul (A) va fi receptionat doar de (A)
      2. Un mesaj trimis catre (C) va fi receptionat de (A) si (B)
      3. Un mesaj trimis catre (D) va fi receptionat de (A),(B),(C) si (D).
